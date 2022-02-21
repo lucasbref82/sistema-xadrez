@@ -1,12 +1,14 @@
 package br.com.projetos.xadrez;
 
 import br.com.projetos.xadrez.tabuleiro.Posicao;
+import br.com.projetos.xadrez.tabuleiro.Tabuleiro;
+
+import java.awt.datatransfer.Clipboard;
 
 public class Main {
 
     public static void main(String[] args) {
-        Posicao posicao = new Posicao(3,5);
-        System.out.println(posicao);
+        Tabuleiro tabuleiro = new Tabuleiro(8,8);
 
     }
 }
